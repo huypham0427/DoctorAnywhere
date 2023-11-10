@@ -30,10 +30,9 @@ Dependencies to get you started if this is your first Spring Boot project:
   - POST /tasks: Create a new task
   - GET /tasks/{id} : Get a single task by ID
       - Implement `Optional` class and `ResponseEntity` class to offer some advantages for managing any data loss and providing suitable HTTP answers depending on the results of activities.
-        ```
-        @GetMapping("/{id}")
-        
-    ```public ResponseEntity<?> getTaskById(@PathVariable Long id) {
+    ```    
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getTaskById(@PathVariable Long id) {
         try {
             Optional<Task> taskOptional = taskRepository.findById(id);
             if (taskOptional.isPresent()) {
@@ -48,8 +47,7 @@ Dependencies to get you started if this is your first Spring Boot project:
             return ResponseEntity.status(500).build();
         }
     }
-    
-
+    ```
       - Having an error handler for an unknown ID while testing API and displaying the error message.
       - Creating an error handler with a connection from the database. 
   - PUT /tasks/{id} : Update a task by ID
