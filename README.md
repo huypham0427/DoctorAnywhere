@@ -42,8 +42,8 @@ Dependencies to get you started if this is your first Spring Boot project:
 7. Use git as the version control for your project.
 
 ## Bonus points
-[x]Implement error handling for each endpoint.
-[x]Use Spring Data JPA to store the task data in a MySQL database.
+- [x]Implement error handling for each endpoint.
+- [x]Use Spring Data JPA to store the task data in a MySQL database.
 Use Spring Security to add authentication and authorization to the API.
 Can run the application in a container.
 
