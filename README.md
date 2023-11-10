@@ -29,21 +29,21 @@ Dependencies to get you started if this is your first Spring Boot project:
   - GET /tasks: Get a list of all tasks
   - POST /tasks: Create a new task
   - GET /tasks/{id} : Get a single task by ID
-      - Having an error handler for unknown ID while testing API and displaying the error message.
+      - Having an error handler for an unknown ID while testing API and displaying the error message.
       - Creating an error handler with a connection from the database. 
   - PUT /tasks/{id} : Update a task by ID
-      - Having an error handler for unknown ID while testing API and displaying the error message.
+      - Having an error handler for an unknown ID while testing API and displaying the error message.
       - Creating an error handler with a connection from the database. 
   - DELETE /tasks/{id} : Delete a task by ID
-      - Having an error handler for unknown ID while testing API and displaying the error message.
+      - Having an error handler for an unknown ID while testing API and displaying the error message.
       - Creating an error handler with a connection from the database. 
 5. Use MySQL for persistence.
 6. Tested APIs using Postman.
 7. Use git as the version control for your project.
 
 ## Bonus points
-- [x]Implement error handling for each endpoint.
-- [x]Use Spring Data JPA to store the task data in a MySQL database.
+- [x] Implement error handling for each endpoint.
+- [x] Use Spring Data JPA to store the task data in a MySQL database.
 Use Spring Security to add authentication and authorization to the API.
 Can run the application in a container.
 
