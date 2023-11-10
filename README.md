@@ -66,10 +66,7 @@ Dependencies to get you started if this is your first Spring Boot project:
 - [ ] Use Spring Security to add authentication and authorization to the API.
 - [ ] Can run the application in a container.
 
-## Video Walkthrough
-Here's a walkthrough of the implemented app:
 
-![ezgif com-optimize](https://github.com/huypham0427/Grocery-List-App-FLutter/assets/59068418/0f2f4cd8-f5b6-4ebb-8aa3-7daf0cbd416e)
 
 
 
