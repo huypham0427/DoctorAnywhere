@@ -46,8 +46,9 @@ Dependencies to get you started if this is your first Spring Boot project:
             // Handle exceptions
             return ResponseEntity.status(500).build();
         }
-    }
-        ```
+    }```
+    
+
       - Having an error handler for an unknown ID while testing API and displaying the error message.
       - Creating an error handler with a connection from the database. 
   - PUT /tasks/{id} : Update a task by ID
